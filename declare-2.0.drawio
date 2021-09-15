@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T08:58:42.258Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="T6rShlcl2-vCupIulkrV" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-15T09:03:38.376Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="iLL9cOYanMETYgUdr2Dt" version="14.5.10" type="github">
   <diagram id="OrDDOOp5G-RsiYh1gpby" name="申报2.0汇总时序图">
     <mxGraphModel dx="1042" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,25 +8,29 @@
           <mxGeometry x="160" y="230" width="100" height="850" as="geometry" />
         </mxCell>
         <mxCell id="T_tN1QSZm3qy5hiVaArP-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="T_tN1QSZm3qy5hiVaArP-2">
-          <mxGeometry x="45" y="90" width="10" height="320" as="geometry" />
+          <mxGeometry x="45" y="90" width="10" height="150" as="geometry" />
         </mxCell>
         <mxCell id="T_tN1QSZm3qy5hiVaArP-6" value="佣金宝" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="230" width="100" height="850" as="geometry" />
         </mxCell>
         <mxCell id="T_tN1QSZm3qy5hiVaArP-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="T_tN1QSZm3qy5hiVaArP-6">
-          <mxGeometry x="45" y="90" width="10" height="140" as="geometry" />
+          <mxGeometry x="45" y="90" width="10" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="T_tN1QSZm3qy5hiVaArP-28" value="4.拉取toll_order源数据" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1.3;entryY=0.564;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" target="T_tN1QSZm3qy5hiVaArP-20" parent="T_tN1QSZm3qy5hiVaArP-6" source="T_tN1QSZm3qy5hiVaArP-20">
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-28" value="4.拉取toll_order源数据" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" target="T_tN1QSZm3qy5hiVaArP-20" parent="T_tN1QSZm3qy5hiVaArP-6" source="T_tN1QSZm3qy5hiVaArP-20">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="55" y="150" as="sourcePoint" />
             <mxPoint x="520" y="160" as="targetPoint" />
             <Array as="points">
               <mxPoint x="150" y="160" />
+              <mxPoint x="150" y="200" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="T_tN1QSZm3qy5hiVaArP-7" value="申报服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="230" width="100" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="T_tN1QSZm3qy5hiVaArP-7">
+          <mxGeometry x="45" y="230" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="T_tN1QSZm3qy5hiVaArP-9" value="redis" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="827" y="230" width="100" height="850" as="geometry" />
@@ -45,7 +49,7 @@
             <mxPoint x="325" y="320" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T_tN1QSZm3qy5hiVaArP-22" value="生成汇总结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="T_tN1QSZm3qy5hiVaArP-20" parent="1" target="T_tN1QSZm3qy5hiVaArP-2">
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-22" value="生成汇总结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.3;exitY=0.278;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="T_tN1QSZm3qy5hiVaArP-20" parent="1" target="T_tN1QSZm3qy5hiVaArP-2">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="325" y="396" as="targetPoint" />
           </mxGeometry>
@@ -58,6 +62,16 @@
         <mxCell id="T_tN1QSZm3qy5hiVaArP-24" value="2.拉取order_flow源数据" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="T_tN1QSZm3qy5hiVaArP-23" parent="1" source="T_tN1QSZm3qy5hiVaArP-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="660" y="320" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-33" value="5.拉取import_data源数据" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;exitX=1.2;exitY=0.344;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="T_tN1QSZm3qy5hiVaArP-32" parent="1" source="T_tN1QSZm3qy5hiVaArP-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="460" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-34" value="6.返回import_data源数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="T_tN1QSZm3qy5hiVaArP-32" parent="1" target="T_tN1QSZm3qy5hiVaArP-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="536" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
