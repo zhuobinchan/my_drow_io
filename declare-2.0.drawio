@@ -1,11 +1,23 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T08:14:23.992Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="0hI179I5LgeHe7T6r7Or" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-15T08:19:08.411Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="vD9C1capnaCIbeS8Hiru" version="14.5.10" type="github">
   <diagram id="OrDDOOp5G-RsiYh1gpby" name="Page-1">
     <mxGraphModel dx="1042" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="T_tN1QSZm3qy5hiVaArP-1" value="redis" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Azure_Cache_for_Redis.svg;" vertex="1" parent="1">
-          <mxGeometry x="150" y="290" width="50" height="50" as="geometry" />
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-2" value="定时器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-6" value="佣金宝" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-7" value="申报服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-8" value="mysql" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-9" value="redis" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="80" width="100" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
