@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T09:45:35.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="r6wweMd_VaQ981Vlt5XL" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-15T09:45:48.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="K5J1MiS78EWbJPBMWT1v" version="14.5.10" type="github">
   <diagram id="OrDDOOp5G-RsiYh1gpby" name="申报2.0汇总时序图">
     <mxGraphModel dx="1042" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="T_tN1QSZm3qy5hiVaArP-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="T_tN1QSZm3qy5hiVaArP-6">
           <mxGeometry x="55" y="430" width="10" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="T_tN1QSZm3qy5hiVaArP-69" value="11.同批次内部跨项目校验" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" target="T_tN1QSZm3qy5hiVaArP-48" parent="T_tN1QSZm3qy5hiVaArP-6" source="T_tN1QSZm3qy5hiVaArP-48">
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-69" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" target="T_tN1QSZm3qy5hiVaArP-48" parent="T_tN1QSZm3qy5hiVaArP-6" source="T_tN1QSZm3qy5hiVaArP-48">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="70" y="500" as="sourcePoint" />
             <Array as="points">
@@ -30,6 +30,11 @@
               <mxPoint x="170" y="520" />
             </Array>
             <mxPoint x="70" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-70" value="&lt;span style=&quot;text-align: left&quot;&gt;11.同批次内部跨项目校验&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T_tN1QSZm3qy5hiVaArP-69">
+          <mxGeometry x="-0.3217" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="T_tN1QSZm3qy5hiVaArP-7" value="申报服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
