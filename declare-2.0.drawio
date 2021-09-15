@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T09:39:31.521Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="a8z-utvyVs69rH4dVOn5" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-15T09:41:18.058Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="fVD5BwZvY99a6O-Ucn5w" version="14.5.10" type="github">
   <diagram id="OrDDOOp5G-RsiYh1gpby" name="申报2.0汇总时序图">
     <mxGraphModel dx="1042" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
           <mxGeometry x="55" y="315" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="T_tN1QSZm3qy5hiVaArP-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="T_tN1QSZm3qy5hiVaArP-6">
-          <mxGeometry x="55" y="430" width="10" height="80" as="geometry" />
+          <mxGeometry x="55" y="430" width="10" height="150" as="geometry" />
         </mxCell>
         <mxCell id="T_tN1QSZm3qy5hiVaArP-7" value="申报服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="230" width="100" height="850" as="geometry" />
@@ -33,6 +33,9 @@
         </mxCell>
         <mxCell id="T_tN1QSZm3qy5hiVaArP-9" value="redis" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="827" y="230" width="100" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="T_tN1QSZm3qy5hiVaArP-9">
+          <mxGeometry x="45" y="436" width="10" height="44" as="geometry" />
         </mxCell>
         <mxCell id="T_tN1QSZm3qy5hiVaArP-17" value="申报2.0汇总流程" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="160" y="160" width="200" height="40" as="geometry" />
@@ -104,6 +107,16 @@
         </mxCell>
         <mxCell id="T_tN1QSZm3qy5hiVaArP-49" value="检查跨项目" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
           <mxGeometry x="404" y="640" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-54" value="9.初次布隆过滤器校验" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="T_tN1QSZm3qy5hiVaArP-53" parent="1" source="T_tN1QSZm3qy5hiVaArP-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="802" y="666" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-55" value="10.返回跨项目校验结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="T_tN1QSZm3qy5hiVaArP-53" parent="1" target="T_tN1QSZm3qy5hiVaArP-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="802" y="742" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
