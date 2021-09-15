@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T08:27:42.041Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="bfZiPO0T64dZPqKLAYDO" version="14.5.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-15T08:31:07.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="NneoIpRZ2u5zKwWxoM2X" version="14.5.10" type="github">
   <diagram id="OrDDOOp5G-RsiYh1gpby" name="Page-1">
     <mxGraphModel dx="1042" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,20 +7,39 @@
         <mxCell id="T_tN1QSZm3qy5hiVaArP-2" value="定时器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="320" width="100" height="300" as="geometry" />
         </mxCell>
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="T_tN1QSZm3qy5hiVaArP-2">
+          <mxGeometry x="45" y="90" width="10" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="T_tN1QSZm3qy5hiVaArP-6" value="佣金宝" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="340" y="320" width="100" height="300" as="geometry" />
+          <mxGeometry x="350" y="320" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="T_tN1QSZm3qy5hiVaArP-6">
+          <mxGeometry x="45" y="90" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="T_tN1QSZm3qy5hiVaArP-7" value="申报服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="320" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="T_tN1QSZm3qy5hiVaArP-8" value="mysql" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="700" y="320" width="100" height="300" as="geometry" />
+          <mxGeometry x="830" y="320" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="T_tN1QSZm3qy5hiVaArP-9" value="redis" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="860" y="320" width="100" height="300" as="geometry" />
+          <mxGeometry x="990" y="320" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="T_tN1QSZm3qy5hiVaArP-17" value="申报2.0汇总流程" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="160" y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-18" value="es" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="320" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-21" value="发起汇总" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="T_tN1QSZm3qy5hiVaArP-20" parent="1" source="T_tN1QSZm3qy5hiVaArP-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="410" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-22" value="生成汇总结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="T_tN1QSZm3qy5hiVaArP-20" parent="1" target="T_tN1QSZm3qy5hiVaArP-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="486" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
