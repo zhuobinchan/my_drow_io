@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-15T09:53:53.158Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="LXMDdX3z3-nRIyeQYLMs" version="15.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-15T09:54:38.977Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36" etag="-i9hxEYz36LMcXtHS9RT" version="15.2.7" type="github">
   <diagram id="OrDDOOp5G-RsiYh1gpby" name="申报2.0汇总时序图">
     <mxGraphModel dx="1042" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,7 +14,7 @@
           <mxGeometry x="350" y="230" width="100" height="1110" as="geometry" />
         </mxCell>
         <mxCell id="T_tN1QSZm3qy5hiVaArP-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="T_tN1QSZm3qy5hiVaArP-6" vertex="1">
-          <mxGeometry x="45" y="90" width="10" height="1020" as="geometry" />
+          <mxGeometry x="45" y="110" width="10" height="740" as="geometry" />
         </mxCell>
         <mxCell id="T_tN1QSZm3qy5hiVaArP-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="T_tN1QSZm3qy5hiVaArP-6" vertex="1">
           <mxGeometry x="55" y="315" width="10" height="80" as="geometry" />
@@ -163,9 +163,9 @@
             <mxPoint x="415" y="780" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T_tN1QSZm3qy5hiVaArP-77" value="15.保存汇总明细" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;exitX=0.9;exitY=0.599;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="T_tN1QSZm3qy5hiVaArP-20" target="T_tN1QSZm3qy5hiVaArP-76" edge="1">
+        <mxCell id="T_tN1QSZm3qy5hiVaArP-77" value="15.保存汇总明细" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" parent="1" target="T_tN1QSZm3qy5hiVaArP-76" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="515" y="920" as="sourcePoint" />
+            <mxPoint x="410" y="920" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="T_tN1QSZm3qy5hiVaArP-79" value="16.更新汇总，重新计算" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" parent="1" source="T_tN1QSZm3qy5hiVaArP-20" target="T_tN1QSZm3qy5hiVaArP-78" edge="1">
