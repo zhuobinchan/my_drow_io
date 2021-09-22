@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-22T16:08:53.262Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="Um5vTYNc73RWrU7dMee-" version="15.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-09-22T16:09:48.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="uxNyIt72Wsji0GgC924F" version="15.2.9" type="github" pages="2">
   <diagram id="vfNRvF-iWBQak13zVtr2" name="Page-1">
     <mxGraphModel dx="1200" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -72,13 +72,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="IuBWs5ygQsYv9KCSXN-g-1" value="stat-api服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="IuBWs5ygQsYv9KCSXN-g-1" value="api流量服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="600" y="160" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="IuBWs5ygQsYv9KCSXN-g-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="IuBWs5ygQsYv9KCSXN-g-1">
           <mxGeometry x="45" y="130" width="15" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="IuBWs5ygQsYv9KCSXN-g-5" value="转发请求响应到SLS" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.12;entryY=0.483;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.053;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IuBWs5ygQsYv9KCSXN-g-2" target="2oq0EQOUTSFsF2TZB69m-22">
+        <mxCell id="IuBWs5ygQsYv9KCSXN-g-5" value="转发请求响应到SLS" style="html=1;verticalAlign=bottom;endArrow=block;exitX=1.053;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IuBWs5ygQsYv9KCSXN-g-2" target="2oq0EQOUTSFsF2TZB69m-22">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="530" y="290" as="sourcePoint" />
             <mxPoint x="610" y="290" as="targetPoint" />
