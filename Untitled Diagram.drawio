@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-22T16:09:48.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="uxNyIt72Wsji0GgC924F" version="15.2.9" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-09-22T16:15:48.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="_DWb1s0ay6UieSpThwuJ" version="15.2.9" type="github" pages="2">
   <diagram id="vfNRvF-iWBQak13zVtr2" name="Page-1">
     <mxGraphModel dx="1200" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -88,12 +88,33 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Skvxki8RevpREaDPr_9M" name="Page-2">
-    <mxGraphModel dx="1200" dy="568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1000" dy="473" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="NKg5BjfSerIZtuyvc59M-0" />
         <mxCell id="NKg5BjfSerIZtuyvc59M-1" parent="NKg5BjfSerIZtuyvc59M-0" />
         <mxCell id="NKg5BjfSerIZtuyvc59M-2" value="佣金宝" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="NKg5BjfSerIZtuyvc59M-1">
           <mxGeometry x="120" y="110" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6kLVH7hWgjZFPUZLmC86-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="NKg5BjfSerIZtuyvc59M-2">
+          <mxGeometry x="45" y="60" width="15" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="6kLVH7hWgjZFPUZLmC86-0" value="api流量服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="NKg5BjfSerIZtuyvc59M-1">
+          <mxGeometry x="280" y="110" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6kLVH7hWgjZFPUZLmC86-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6kLVH7hWgjZFPUZLmC86-0">
+          <mxGeometry x="45" y="80" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6kLVH7hWgjZFPUZLmC86-1" value="sls（日志服务）" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="NKg5BjfSerIZtuyvc59M-1">
+          <mxGeometry x="440" y="110" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6kLVH7hWgjZFPUZLmC86-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6kLVH7hWgjZFPUZLmC86-1">
+          <mxGeometry x="45" y="80" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6kLVH7hWgjZFPUZLmC86-2" value="佣金宝（只读）" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="NKg5BjfSerIZtuyvc59M-1">
+          <mxGeometry x="600" y="110" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="6kLVH7hWgjZFPUZLmC86-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="6kLVH7hWgjZFPUZLmC86-2">
+          <mxGeometry x="45" y="90" width="10" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
