@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-22T13:40:13.597Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="wOqtNETezw1aOY3gX3FR" version="15.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-22T13:40:36.953Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="qPpkuzfOrZb4-vjdUPVu" version="15.2.9" type="github">
   <diagram id="vfNRvF-iWBQak13zVtr2" name="Page-1">
     <mxGraphModel dx="1282" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,10 @@
           <mxGeometry x="240" y="160" width="110" height="300" as="geometry" />
         </mxCell>
         <mxCell id="2oq0EQOUTSFsF2TZB69m-12" value="佣金宝api" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="440" y="160" width="100" height="300" as="geometry" />
+          <mxGeometry x="430" y="160" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="2oq0EQOUTSFsF2TZB69m-13" value="SLS(日志均衡)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="160" width="110" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
