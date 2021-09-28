@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-28T02:47:17.471Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="QvSpuS999hkuU2Zcmrnr" version="15.3.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-28T02:47:33.425Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="CTcXpZ0vEslFowMnCnSA" version="15.3.1" type="github" pages="3">
   <diagram id="vfNRvF-iWBQak13zVtr2" name="Page-1">
     <mxGraphModel dx="1282" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -160,25 +160,6 @@
       <root>
         <mxCell id="tljOda7cz_2C-h-Yxhy2-0" />
         <mxCell id="tljOda7cz_2C-h-Yxhy2-1" parent="tljOda7cz_2C-h-Yxhy2-0" />
-        <mxCell id="tljOda7cz_2C-h-Yxhy2-2" value="佣金宝admin-api" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="tljOda7cz_2C-h-Yxhy2-1">
-          <mxGeometry x="240" y="130" width="100" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="tljOda7cz_2C-h-Yxhy2-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="tljOda7cz_2C-h-Yxhy2-2">
-          <mxGeometry x="45" y="60" width="15" height="180" as="geometry" />
-        </mxCell>
-        <mxCell id="tljOda7cz_2C-h-Yxhy2-4" value="统计请求" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;entryX=0.133;entryY=0.228;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="tljOda7cz_2C-h-Yxhy2-2" target="tljOda7cz_2C-h-Yxhy2-3">
-          <mxGeometry x="-0.0342" y="11" width="60" relative="1" as="geometry">
-            <mxPoint x="-70" y="100" as="sourcePoint" />
-            <mxPoint x="40" y="100" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tljOda7cz_2C-h-Yxhy2-5" value="统计结果响应" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=1.3;entryY=0.731;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="tljOda7cz_2C-h-Yxhy2-2">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="140" as="sourcePoint" />
-            <mxPoint x="-70" y="140.00000000000003" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="tljOda7cz_2C-h-Yxhy2-6" value="sls（日志服务）" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="tljOda7cz_2C-h-Yxhy2-1">
           <mxGeometry x="402" y="130" width="100" height="300" as="geometry" />
         </mxCell>
@@ -227,7 +208,7 @@
           <mxGeometry x="477" y="210" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="tljOda7cz_2C-h-Yxhy2-16" value="佣金宝前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="tljOda7cz_2C-h-Yxhy2-1">
-          <mxGeometry x="110" y="130" width="100" height="300" as="geometry" />
+          <mxGeometry x="240" y="130" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="tljOda7cz_2C-h-Yxhy2-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="tljOda7cz_2C-h-Yxhy2-16">
           <mxGeometry x="45" y="60" width="15" height="180" as="geometry" />
